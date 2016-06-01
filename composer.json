@@ -1,5 +1,5 @@
 {
-    "name": "shamyyl/geocoder",
+    "name": "willdurand/geocoder",
     "type": "library",
     "description": "The almost missing Geocoder PHP 5.4 library.",
     "keywords": ["geocoder", "geocoding", "abstraction", "geoip"],
@@ -7,13 +7,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "William Durand, Shamil Shamyyl",
+            "name": "William Durand",
             "email": "william.durand1@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "egeloen/http-adapter": "0.7.*",
+        "php": "^5.4|^7.0",
+        "egeloen/http-adapter": "~0.8|~1.0",
         "igorw/get-in": "~1.0"
     },
     "require-dev": {
@@ -28,5 +28,10 @@
     },
     "autoload": {
         "psr-0": { "Geocoder": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.3-dev"
+        }
     }
 }
