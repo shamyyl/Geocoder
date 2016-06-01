@@ -1,5 +1,5 @@
 {
-    "name": "willdurand/geocoder",
+    "name": "shamyyl/geocoder",
     "type": "library",
     "description": "The almost missing Geocoder PHP 5.4 library.",
     "keywords": ["geocoder", "geocoding", "abstraction", "geoip"],
@@ -7,7 +7,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "William Durand",
+            "name": "William Durand, Shamil Shamyyl",
             "email": "william.durand1@gmail.com"
         }
     ],
